@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Formdiv {
+  margin-top: 30px;
+  background-color: rgba(16, 49, 196, 0.048);
+  width: 800px;
+  margin: 0 auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: rgb(95, 123, 160);
+  text-align: center;
+  height: 450px;
+  border-radius: 25px;
+}
+
+.tablediv{
+  margin-top: 10px;
+  background-color: rgba(16, 49, 196, 0.048);
+  width: 800px;
+  margin: 0 auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: rgb(95, 123, 160);
+  border-radius: 25px;
+  border-color: aquamarine;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
